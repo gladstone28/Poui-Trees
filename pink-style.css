@@ -1,0 +1,6 @@
+.featured-image {
+    width: 90%;
+    max-width: 500px; /* Adjust as needed */
+    margin: 20px 0; /* Adds margin above and below the image */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
