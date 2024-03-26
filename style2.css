@@ -3,27 +3,35 @@ body {
     margin: 0;
     padding: 20px;
     text-align: center;
-    background-color: #f4f4f9; /* Light background color for contrast */
-    color: #333; /* Dark text color for readability */
+    background-color: #f4f4f9;
+    /* Light background color for contrast */
+    color: #333;
+    /* Dark text color for readability */
 }
 
 .container {
     max-width: 800px;
     margin: auto;
-    background-color: #fff; /* White background for the content area */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff;
+    /* White background for the content area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
     padding: 20px;
-    border-radius: 8px; /* Rounded corners for a modern look */
+    border-radius: 8px;
+    /* Rounded corners for a modern look */
 }
 
 h1 {
-    color: #6a1b9a; /* A deep purple color for the main heading */
+    color: #6a1b9a;
+    /* A deep purple color for the main heading */
     margin-bottom: 20px;
 }
 
 p {
-    text-align: justify; /* Justify text for a clean look */
-    line-height: 1.6; /* Increased line height for readability */
+    text-align: justify;
+    /* Justify text for a clean look */
+    line-height: 1.6;
+    /* Increased line height for readability */
     margin-bottom: 15px;
 }
 
@@ -31,7 +39,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 30px; /* Added space above the image gallery */
+    margin-top: 30px;
+    /* Added space above the image gallery */
 }
 
 .image-link {
@@ -44,15 +53,51 @@ p {
     width: 100%;
     max-width: 250px;
     transition: transform 0.2s;
-    border-radius: 4px; /* Rounded corners for images */
+    border-radius: 4px;
+    /* Rounded corners for images */
 }
 
 .image-link img:hover {
-    transform: scale(1.05); /* Slight scale effect on hover */
+    transform: scale(1.05);
+    /* Slight scale effect on hover */
 }
 
 .image-link p {
     margin-top: 5px;
-    color: #6a1b9a; /* Match heading color for consistency */
-    font-weight: bold; /* Make the text beneath images bold */
+    color: #6a1b9a;
+    /* Match heading color for consistency */
+    font-weight: bold;
+    /* Make the text beneath images bold */
+}
+
+#backToTopBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it sits on top of other content */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outlines */
+    background-color: #6a1b9a;
+    /* Purple background color */
+    color: white;
+    /* White text color */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    padding: 15px;
+    /* Padding for size */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+#backToTopBtn:hover {
+    background-color: #555;
+    /* Darken the button a bit on hover */
 }
